@@ -1,0 +1,33 @@
+    .grid{
+        display: grid;
+    }
+
+    .grid-center{
+        align-items: center;
+        justify-items: center;
+        gap: 15px;
+    }
+
+    .grid-3-cols{
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+    }
+
+    .grid-2-cols{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .flex{
+        display: flex;
+    }
+
+    .center{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .center-strip{
+        justify-content: center;
+    }
+
+

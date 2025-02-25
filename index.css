@@ -1,0 +1,1338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+header{
+    background-color: whitesmoke;
+    max-height: 90px;
+    position: fixed;
+    width: 100%;
+    top: 0; 
+    left: 0;
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav{
+    display: flex;
+    text-align: top;
+    align-items: center;
+    padding: 10px 20px;
+}    
+.logo img{
+    width: 100px;
+    height: auto;
+    max-height: 80px;
+    padding: 5px;
+}
+
+
+
+.topnav{
+    /* text-align: center;
+    padding: 4%; */
+    padding: 10px 20px; 
+}
+
+.topnav button{
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 11px 14px;
+    margin-top: auto;
+    cursor: pointer;
+    background-color: orange;
+}
+
+input[type="text"]{
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 300px;
+    padding: 11px 14px;
+    margin-top: auto;
+}
+
+.dropbtn {
+    background-color:whitesmoke;
+    color: black;
+    padding: 11px 14px;
+    font-size: 16px;
+    border-color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 9px;
+}
+
+.dp{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(https://w0.peakpx.com/wallpaper/518/289/HD-wallpaper-shahrukh-khan-srk-smile-srk-smile-thumbnail.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 565px;
+    position: relative;
+    cursor: pointer;
+}
+
+.cart{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: peachpuff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 442px;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Scrollable Menu */
+.menu-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+    scroll-behavior: smooth;
+    flex-grow: 1;
+    padding: 10px 0;
+}
+
+.menu-container::-webkit-scrollbar {
+    display: none; 
+}
+
+/* Menu Items */
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-item {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #333;
+}
+
+.menu-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #eee;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover img {
+    transform: scale(1.1);
+}
+
+.menu-item span {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/* Scroll Buttons */
+.scroll-btn {
+    background-color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.scroll-btn.left {
+    left: -20px;
+}
+
+.scroll-btn.right {
+    right: -20px;
+}
+
+.scroll-btn:hover {
+    background-color: #f0f0f0;
+}
+
+#test-section{
+    display: flex;
+    margin-top: 114px;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-section {
+    margin: auto;
+    margin-top: 38px;
+    width: 90%;
+    /* background: lightgoldenrodyellow; */
+    background-image: url(images/premium.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 130px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.banner-card{
+
+}
+
+.container{
+    text-align: left;
+}
+
+.container h1{
+    text-align: left;
+    font-size: xxx-large;
+}
+
+.container span{
+    font-size: medium;
+}
+
+.right-btn{
+    cursor: pointer;
+    width: 47px;
+    background: olive;
+    color: white;
+    height: 47px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+    position: relative;
+    bottom: 141px;
+    left: 121px;
+}
+
+.btn-back{
+    width: 70px;
+    height: 70px;
+    border-bottom-left-radius: 21px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 137px;
+    left: 468px;
+    position: relative;
+}
+
+.categories{ 
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.category-grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.category-card {
+    width: 200px; /* Adjust the card size */
+    height: 350px; /* Increase height to match reference */
+    /* background: #ffe6e6;  */
+    background-image: url(images/category.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px; /* Rounded corners */
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Space between image & text */
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.category-card:hover {
+    transform: translateY(-5px); /* Hover effect */
+}
+
+/* .category-card img{
+    width: 80%;
+    max-width: 150px;
+    object-fit: contain;
+    cursor: pointer;
+} */
+
+.category-card p {
+    background: white;
+    padding: 8px 8px;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    cursor: pointer;
+}
+
+#Why h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.services ul{
+    display: flex;
+    justify-content: center;
+}
+
+.services ul li{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services ul li h5{
+    display: flex;
+    font-size: 18px;
+
+}
+
+
+#Occasion{
+    justify-content: center;
+    align-items: center;    
+    display: grid;
+    background-color: bisque;
+    margin-top: 60px;
+}
+
+#Occasion h2{
+    margin-top: 100px;
+    margin-bottom: 1px;
+}
+
+.Occasion-card{
+    position: relative;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Occasion-grid{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    gap: 20px;
+    grid-template-columns:repeat(3, 1fr);
+}
+
+
+.Occasion-card:hover {
+    transform: translateY(-5px);
+}
+
+.Occasion-btn {
+    width: 27rem;
+    height: 14rem;
+    /* background-color: pink; */
+    background-image: url(images/occasion3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.Occasion-card button{
+    background: #0000006b;
+    position: absolute;
+    top: 161px;
+    border: none;
+    left: 9px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 432px;
+    height: 63px;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}
+
+.Occasion-small-grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    gap: 20px;
+}
+
+
+.Occasion-small-card {
+    width: 214px;
+    height: 246px;
+    /* background: pink; */
+    background-image: url(images/farewell.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3sease;
+    cursor: pointer;
+}
+
+.Occasion-small-card:hover {
+    transform: translateY(-5px); /* Hover effect */
+}
+
+/* .category-card img{
+    width: 80%;
+    max-width: 150px;
+    object-fit: contain;
+    cursor: pointer;
+} */
+
+.Occasion-small-card p {
+    background: #0000006e;
+    padding: 8px 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 100;
+    font-size: larger;
+    width: 123%;
+    height: 49px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    top: 20px;
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+
+#surp{
+    justify-content: center;
+    align-items: center;    
+    display: flex;
+    flex-direction: column;
+}
+
+#surp h2{
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.surprise{
+    display: flex;
+    gap: 135px;
+    justify-content: center;
+}
+
+.surprise-box{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 18rem;
+    height: 18rem;
+    background-color: lightgoldenrodyellow; */
+}
+
+.surprise-btn {
+    width: 18rem;
+    height: 18rem;
+    /* background-color: lightgoldenrodyellow; */
+    background-image: url(images/for-him.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.surprise-box button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    color: olive;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid olive;
+    padding: 10px 20px;
+    border-radius: 50px; /* Makes it rounded */
+    cursor: pointer;
+    outline: none;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+    width: 160px; /* Adjust button width */
+    height: 40px;
+    margin-top: 10px;
+}
+
+.arrow{
+    background: olive;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.surprise-box button:hover{
+    background: white;
+    color: olive;
+}
+
+.surprise-box button:hover, .arrow{
+    background: olive;
+    color: white;
+}
+
+#best{
+    justify-content: center;
+    align-items: center;    
+    display: flex;
+    flex-direction: column;
+}
+
+#best h2{
+    margin-top: 100px;
+    margin-bottom: 1px;
+}
+
+#best p{
+    margin-bottom: 40px;
+}
+
+.best-seller{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.best-box{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 18rem;
+    height: 18rem;
+    background-color: lightgoldenrodyellow; */
+}
+
+.best-btn {
+    width: 18rem;
+    height: 23rem;
+    /* background-color: lightgoldenrodyellow; */
+    background-image: url(images/best1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.best-box button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    color: olive;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid olive;
+    padding: 10px 20px;
+    border-radius: 50px; /* Makes it rounded */
+    cursor: pointer;
+    outline: none;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+    width: 272px; /* Adjust button width */
+    height: 40px;
+    margin-top: 10px;
+}
+
+.arrow{
+    background: olive;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.best-box button:hover{
+    background: white;
+    color: olive;
+}
+
+.best-box button:hover, .arrow{
+    background: olive;
+    color: white;
+}
+
+
+
+#Favourite{
+    justify-content: center;
+    align-items: center;    
+    display: grid;
+    background-color: bisque;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+#Favourite h2{
+    margin-top: 75px;
+    margin-bottom: 1px;
+}
+
+.Favourite-card{
+    position: relative;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Favourite-grid{
+    display: grid;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    gap: 100px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+
+.Favourite-card:hover {
+    transform: translateY(-5px);
+}
+
+.Favourite-btn {
+    width: 7rem;
+    height: 7rem;
+    /* background-color: pink; */
+    background-image: url(images/fav1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 100%;
+
+}
+
+.Favourite-card button{
+    background: none;
+    position: absolute;
+    top: 114px;
+    border: none;
+    left: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 113px;
+    height: 25px;
+    font-size: larger;
+    color: black;
+    cursor: pointer;
+}
+
+#new{
+    justify-content: center;
+    align-items: center;    
+    display: flex;
+    flex-direction: column;
+}
+
+#new h2{
+    margin-top: 100px;
+    margin-bottom: 1px;
+}
+
+#new p{
+    margin-bottom: 40px;
+}
+
+.new-arrivals{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.new-box{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 18rem;
+    height: 18rem;
+    background-color: lightgoldenrodyellow; */
+}
+
+.new-btn {
+    width: 18rem;
+    height: 23rem;
+    /* background-color: lightgoldenrodyellow; */
+    background-image: url(images/best4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.new-box button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    color: olive;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid olive;
+    padding: 10px 20px;
+    border-radius: 50px; /* Makes it rounded */
+    cursor: pointer;
+    outline: none;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+    width: 272px; /* Adjust button width */
+    height: 40px;
+    margin-top: 10px;
+}
+
+.new-box button:hover{
+    background: white;
+    color: olive;
+}
+
+.new-box button:hover, .arrow{
+    background: olive;
+    color: white;
+}
+
+#ShowStopper{
+    justify-content: center;
+    align-items: center;    
+    display: grid;
+    flex-direction: column;
+}
+
+#ShowStopper h2{
+    margin-top: 100px;
+    margin-bottom: 1px;
+}
+
+.ShowStopper-card{
+    position: relative;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+}
+
+.ShowStopper-grid{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    gap: 20px;
+    grid-template-columns:repeat(3, 1fr);
+}
+
+
+.ShowStopper-card:hover {
+    transform: translateY(-5px);
+}
+
+.ShowStopper-btn {
+    width: 27rem;
+    height: 14rem;
+    /* background-color: lightgoldenrodyellow; */
+    background-image: url(images/new.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.ShowStopper-card button{
+    background: white;
+    position: absolute;
+    top: 161px;
+    border: none;
+    left: -10px;
+    border-top-right-radius: 40px;
+    width: 201px;
+    height: 75px;
+    font-size: larger;
+}
+
+/* .Luxe{
+    width: 100%;
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+    margin: 20px 0;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-image: url('luxe.png');
+    background-size: 100%;
+    position: absolute;
+} */
+
+
+#Luxe-section {
+    margin: auto;
+    margin-top: 38px;
+    width: 100%;
+    /* background: lightgoldenrodyellow; */
+    background-image: url(images/luxe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 225px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Luxe-container{
+    text-align: left;
+    right: 36px;
+    position: relative;
+    bottom: 54px;
+}
+
+.Luxe-container h1{
+    text-align: left;
+    font-size: xxx-large;
+    bottom: 50px;
+    left: 346px;
+    position: relative;
+    font-style: italic;
+}
+
+.Luxe-container span{
+    font-size: medium;
+    left: 413px;
+    position: relative;
+    bottom: 18px;
+}
+
+.Luxe-right-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    gap: 10px;
+    width: 157px;
+    height: 40px;
+    margin-top: 10px;
+    right: 485px;
+    position: relative;
+    top: 100px;
+}
+
+.Luxe-arrow{
+    background: white;
+    color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.Luxe-right-btn:hover{
+    background: white;
+    color: black;
+}
+
+.Luxe-right-btn:hover, .Luxe-arrow{
+    background: white;
+    color: black;
+}
+
+
+#Designer-section{
+    justify-content: center;
+    align-items: center;    
+    display: flex;
+    flex-direction: column;
+}
+
+#Designer-section h2{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.Designer{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.Designer-box{  
+    align-items: center;
+    /* width: 18rem;
+    height: 18rem;
+    background-color: lightgoldenrodyellow; */
+}
+
+.Designer-box h5{
+    display: flex;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.Designer-btn {
+    width: 15rem;
+    height: 22rem;
+    /* background-color: lightgoldenrodyellow; */
+    background-image: url(images/designer2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+#Pair{
+    justify-content: center;
+    align-items: center;    
+    display: grid;
+    flex-direction: column;
+}
+
+#Pair h2{
+    margin-top: 100px;
+    margin-bottom: 1px;
+}
+
+.Pair-card{
+    position: relative;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Pair-grid{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    gap: 20px;
+    grid-template-columns:repeat(3, 1fr);
+}
+
+
+.Pair-card:hover {
+    transform: translateY(-5px);
+}
+
+.Pair-btn {
+    width: 27rem;
+    height: 14rem;
+    /* background-color: lightgoldenrodyellow; */
+    background-image: url(images/new.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.Pair-card button{
+    background: white;
+    position: absolute;
+    top: 161px;
+    border: none;
+    left: -10px;
+    border-top-right-radius: 75px;
+    width: 201px;
+    height: 75px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.ShopByPrice {
+    /* background-color: #ffe6e6; */
+    background-image: url(images/shop1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+    position: relative;
+}
+
+.ShopByPriceContainer{
+    position: absolute;
+    top: 154px;
+}
+
+.ShopByPrice button{
+    background-color: white;
+    border-radius: 40px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+.ShopByPrice h2{
+    margin-top: 75px;
+    font-size: xx-large;
+}
+
+#Blooms{
+    justify-content: center;
+    align-items: center;    
+    display: grid;
+    flex-direction: column;
+}
+
+#Blooms h2{
+    margin-top: 100px;
+    margin-bottom: 1px;
+}
+
+.Blooms-card{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Blooms-grid{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    gap: 20px;
+    grid-template-columns:repeat(3, 1fr);
+}
+
+
+.Blooms-card:hover {
+    transform: translateY(-5px);
+}
+
+.Blooms-btn {
+    width: 13rem;
+    height: 9rem;
+    /* background-color: lightgoldenrodyellow; */
+    background-image: url(images/blooms.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.Blooms-btn p{
+    text-align: left;
+    top: 110px;
+    position: relative;
+    left: 20px;
+    font-size: larger;
+}
+
+.Blooms-card button{
+    background: olivedrab;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 16px;
+    border: none;
+    left: 157px;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    font-size: larger;
+    cursor: pointer;
+    color: white;
+}
+
+#Preserved-section {
+    margin: auto;
+    margin-top: 38px;
+    width: 100%;
+    /* background: lightgoldenrodyellow; */
+    background-image: url(images/preserved.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 206px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Preserved-container{
+    text-align: left;
+    right: 36px;
+    position: relative;
+    bottom: 54px;
+}
+
+.Preserved-container h1{
+    text-align: left;
+    font-size: xxx-large;
+}
+
+.Preserved-container span{
+    font-size: medium;
+}
+
+.Preserved-right-btn{
+    cursor: pointer;
+    width: 145px;
+    height: 38px;
+    border-radius: 20px;
+    font-size: 13px;
+    border: none;
+    position: relative;
+    top: 75px;
+    right: 1000px;
+    background-color: black;
+    color: white;
+}
+
+
+#Countries{
+    justify-content: center;
+    align-items: center;    
+    display: grid;
+    flex-direction: column;
+}
+
+#Countries h2{
+    margin-top: 100px;
+    margin-bottom: 1px;
+}
+
+.Countries-card{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Countries-grid{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    gap: 20px;
+    grid-template-columns:repeat(3, 1fr);
+}
+
+
+.Countries-card:hover {
+    transform: translateY(-5px);
+}
+
+.Countries-btn {
+    width: 13rem;
+    height: 9rem;
+    /* background-color: pink; */
+    background-image: url(images/blooms.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.Countries-btn p{
+    text-align: left;
+    top: 110px;
+    position: relative;
+    left: 20px;
+    font-size: larger;
+}
+
+.Countries-card button{
+    background: white;
+    position: absolute;
+    top: 16px;
+    border: none;
+    left: 157px;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+#comment-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    overflow-x: auto;
+    position: relative;
+}
+
+.comments{
+    display: inline-block;
+    background-color: rgba(144, 238, 144, 0.167);
+    width: 23rem;
+    height: 20rem;
+    margin-bottom: 35px;
+    border-radius: 20px;
+    flex: none;
+    border: 1px solid rgb(144, 238, 144);
+}
+
+/* .comments-box{
+    background-color: aqua;
+    width: 23rem;
+    height: 20rem;
+    border-radius: 20px;
+} */
+
+.comments  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.comments h3{
+    font-size: x-large;
+    position: relative;
+    bottom: 27px;
+    right: 55px;
+}
+
+.role{
+    position: relative;
+    bottom: 25px;
+    right: 38px;
+
+}
+
+.comment-card{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(https://w0.peakpx.com/wallpaper/518/289/HD-wallpaper-shahrukh-khan-srk-smile-srk-smile-thumbnail.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 26px;
+    left: 33px;
+    position: relative;
+}
+
+.cust-review{
+    top: 0px;
+    text-align: left;
+    position: relative;
+    width: 294px;
+    left: 38px;
+    font-size: large; 
+}
+
+.stars{
+    top: 43px;
+    text-align: left;
+    left: 35px;
+    position: relative;
+}
+
+@media screen and (max-width:1280px) {
+    nav{
+        width: 85%;
+    }
+
+    .dp{
+        left: 256px;
+    }
+
+    .cart{
+        left: 152px;
+    }
+
+    input[type="text"]{
+        width: 250px;
+    }
+
+    .scroll-btn.right {
+        left: 988px;
+    }
+    
+    .menu {
+        gap: 16px;
+    }
+    
+    #test-section {
+        width: 1110px;
+    }
+}
+
